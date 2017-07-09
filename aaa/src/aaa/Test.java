@@ -6,6 +6,8 @@ import java.util.TreeSet;
 public class Test {
 	
 	private String convert(int number) {
+		
+		System.out.println("I am in Test Class");
 
 		if(number==0){
 		return "ZERO";
